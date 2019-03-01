@@ -1,6 +1,2 @@
-require "worldleaders_cli/version"
-
-module WorldleadersCli
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "./worldleaders_cli/cli/version"
+require_relative "./worldleaders_cli/cli"
